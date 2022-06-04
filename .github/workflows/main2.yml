@@ -1,0 +1,11 @@
+- name: Setup Lazarus environment
+  # You may pin to the exact commit or the version.
+  # uses: gcarreno/setup-lazarus@2ce8132349fdfbd165ddfcf3f7e6cfb1a7333ffd
+  uses: gcarreno/setup-lazarus@v3.2
+  with:
+    # Version of Lazarus
+    lazarus-version: # default is dist
+    # Include packages that the project needs
+    include-packages: # optional
+    # Use cache for installer files
+    with-cache: # optional, default is true
